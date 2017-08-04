@@ -1,0 +1,74 @@
+*{
+    box-sizing:border-box;
+}
+.container{
+    width:700px;
+    margin: auto;
+    font-size:0px;
+}
+h1{
+    color: yellow;
+    height: 20px;
+}
+body {
+    background: black;
+    font-family: sans-serif;
+}
+
+.row div{
+    width:48px;
+    height: 48px;
+    display:inline-block;
+}
+
+.wall{
+    background: blue;
+}
+.food{
+    background: white;
+    border:16px solid black;
+    border-radius: 100%;
+}
+
+.plyr{
+    background: yellow;
+    border: 4px solid black;
+    border-radius:100%;
+    background-image: url("pacmanmoving.gif");
+    background-size: 40px 45px;
+}
+.plyr.up{
+    background: yellow;
+    border: 4px solid black;
+    border-radius:100%;
+    background-image: url("pacmanmoving.gif");transform: rotate(-90deg);
+    background-size: 42px 40px;
+}
+.plyr.left{
+    background: yellow;
+    border: 4px solid black;
+    border-radius:100%;
+    background-image: url("pacmanmoving.gif");transform: rotate(-180deg);
+    background-size: 42px 40px;
+}
+.plyr.down{
+    background: yellow;
+    border: 4px solid black;
+    border-radius:100%;
+    background-image: url("pacmanmoving.gif");transform: rotate(90deg);
+    background-size: 42px 40px;
+
+}
+h4{
+    color: yellow;
+    text-align:center;
+}
+div.score{
+    width: 150px;
+}
+p{
+    font-size: 20px;
+    height: 20px;
+    color: purple;
+    text-align: center;
+    margin:0px;

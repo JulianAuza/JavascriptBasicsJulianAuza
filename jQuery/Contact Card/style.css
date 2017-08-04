@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+    
+}
+#container{
+    width:700px;
+    margin: auto;
+}
+input.desc{
+    height:85px;
+    width:209px;
+    text-align: top;
+}
+button{
+    margin-top:10px;
+    height:40px;
+    width:100px;
+    background-color: whitesmoke;
+    border: none;
+    color: grey;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+h1{
+    text-align: center; 
+}
+div.visitor{
+    display: inline-block;
+    float:right;
+}
+div.entry{
+    display: inline-block;
+}
+h3{
+    text-align: center;
+}
